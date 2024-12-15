@@ -1,0 +1,175 @@
+## Here's an extensive list of elements, components, and sections commonly used in web development:
+
+### UI Components:
+
+- Accordion //icon
+- Button
+- Card
+- Image
+- ~~Video~~
+- Slider/Carousel 
+- Progress Bar
+- Avatar 
+- Badge //wait
+- Breadcrumb
+- Blockquote //wait
+- Alert/Toast
+- Modal/Popup //need style and other
+- Tabs //need style and other
+- Table //need style and other
+- List //wait
+- Dropdown //need style and other
+- Navigation Menu //need style and other
+- Sidebar //need style and other
+- Icon //wait
+- Label
+- Input (Text, Number, Password) //need style and other
+- Textarea //need style and other
+- Checkbox //need style and other // variant should customize
+- Radio Button //need style and other // variant should customize
+- Switch //need style and other
+- Toggle //need style and other
+- File Upload //need style and other
+- Pagination  //need style and other
+- Stepper //need style and other
+- Calendar/Date Picker //need style and other
+- Tooltip //need style and other
+- Spinner/Loader //need style and other
+- Search Bar //cancel
+- Breadcrumbs //cancel
+- Rating //need style and other
+- Alert //need style and other
+- Divider //need style and other
+- Notification //wait
+- Number Input //wait
+- Number Counter //need style and other
+- Skeleton //need style and other
+- Slider  //need style and other
+- Toast  //need style and other
+- Back To Top  //need style and other
+- Timeline //wait for both position handle 
+- Typography //need style and other
+- Select 
+- Chip/Tag
+- Masonry  //need style and other
+- Grid
+- Flex
+- Form (Login, Signup, Contact)
+- Footer
+- Header/Navbar
+- Divider
+- Social Media Buttons
+
+## Page Sections:
+
+- Hero Section
+- About Section
+- Services/What We Do Section
+- Features Section
+- Works/Portfolio Section
+- Testimonials Section
+- Pricing Section
+- Team Section
+- Call to Action (CTA) Section
+- FAQ Section
+- Blog/News Section
+- Contact Section
+- Footer Section
+- Header Section
+- Careers Section
+- Gallery Section
+- Stats/Numbers Section
+- Partners/Clients Section
+- Download Section (for apps)
+- Newsletter Signup Section
+- Mission/Vision Section
+- Products Section
+- Features & Benefits Section
+- Testimonials/Reviews Section
+- Process/Steps Section
+- Case Studies Section
+- Event Section
+- Location/Map Section
+- Services/Product Overview Section
+- Comparison Section
+
+## Functional Elements:
+
+- Form (Login, Signup, Contact Form)
+- Captcha
+- Search Field
+- Cart
+- Checkout
+- Breadcrumb Navigation
+- Notification Badge
+- Filter/Sort Option
+- Language Selector
+- Theme Switcher
+- Login/Register Modal
+- Password Recovery
+- Structural Elements:
+- Grid System
+- Container/Wrapper
+- Row/Column
+- Section
+- Header
+- Footer
+- Sidebar
+- Main Content
+- Navigation Bar
+- Article
+- Aside
+- Figure
+- Footer Links
+- Header Links
+- Spacer
+- Interactive Elements:
+- Parallax Scrolling
+- Scrollspy
+- Smooth Scroll
+- Animations (Hover, Scroll, Click)
+- Sticky Elements (Sticky Header, Sticky Footer)
+- Lightbox
+- Infinite Scroll
+- Countdown Timer
+- Drag and Drop
+- Pull-to-Refresh
+- Collapsible Elements
+
+## Layout Components:
+
+- Grid Layout
+- Flexbox Layout
+- Full-width Section
+- Split-screen Layout
+- Masonry Layout
+- Sticky Layout
+- Responsive Breakpoints
+- Fixed Layout
+- Floating Action Button
+
+## Navigation Components:
+
+- Header/Navbar
+- Sidebar
+- Breadcrumbs
+- Footer Navigation
+- Dropdown Menu
+- Mega Menu
+- Mobile Hamburger Menu
+- Tab Navigation
+- Pagination
+- Back-to-Top Button
+
+## Other UI Patterns:
+
+- Card Layout
+- Carousel/Slideshow
+- Masonry Layout
+- Overlay
+- Hover Effects
+- Flip Cards
+- Comparison Chart
+- Timeline
+
+This list covers most of the key components and sections you'll encounter or create while working on web development projects.

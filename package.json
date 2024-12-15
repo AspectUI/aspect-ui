@@ -1,0 +1,250 @@
+{
+  "name": "aspect-ui",
+  "version": "0.0.1",
+  "description": "A React component library for building user interfaces.",
+  "files": [
+    "./lib/"
+  ],
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/esm/index.d.ts",
+        "default": "./lib/esm/index.js"
+      },
+      "require": {
+        "default": "./lib/cjs/index.js"
+      }
+    },
+    "./Accordion": {
+      "types": "./lib/esm/components/Accordion/index.d.ts",
+      "default": "./lib/cjs/components/Accordion/index.js"
+    },
+    "./Alert": {
+      "types": "./lib/esm/components/Alert/index.d.ts",
+      "default": "./lib/cjs/components/Alert/index.js"
+    },
+    "./Avatar": {
+      "types": "./lib/esm/components/Avatar/index.d.ts",
+      "default": "./lib/cjs/components/Avatar/index.js"
+    },
+    "./BackToTop": {
+      "types": "./lib/esm/components/BackToTop/index.d.ts",
+      "default": "./lib/cjs/components/BackToTop/index.js"
+    },
+    "./Breadcrumb": {
+      "types": "./lib/esm/components/Breadcrumb/index.d.ts",
+      "default": "./lib/cjs/components/Breadcrumb/index.js"
+    },
+    "./Button": {
+      "types": "./lib/esm/components/Button/index.d.ts",
+      "default": "./lib/cjs/components/Button/index.js"
+    },
+    "./Card": {
+      "types": "./lib/esm/components/Card/index.d.ts",
+      "default": "./lib/cjs/components/Card/index.js"
+    },
+    "./Carousel": {
+      "types": "./lib/esm/components/Carousel/index.d.ts",
+      "default": "./lib/cjs/components/Carousel/index.js"
+    },
+    "./Checkbox": {
+      "types": "./lib/esm/components/Checkbox/index.d.ts",
+      "default": "./lib/cjs/components/Checkbox/index.js"
+    },
+    "./CircularProgressBar": {
+      "types": "./lib/esm/components/CircularProgressBar/index.d.ts",
+      "default": "./lib/cjs/components/CircularProgressBar/index.js"
+    },
+    "./DatePicker": {
+      "types": "./lib/esm/components/DatePicker/index.d.ts",
+      "default": "./lib/cjs/components/DatePicker/index.js"
+    },
+    "./Divider": {
+      "types": "./lib/esm/components/Divider/index.d.ts",
+      "default": "./lib/cjs/components/Divider/index.js"
+    },
+    "./Dropdown": {
+      "types": "./lib/esm/components/Dropdown/index.d.ts",
+      "default": "./lib/cjs/components/Dropdown/index.js"
+    },
+    "./Input": {
+      "types": "./lib/esm/components/Input/index.d.ts",
+      "default": "./lib/cjs/components/Input/index.js"
+    },
+    "./Masonry": {
+      "types": "./lib/esm/components/Masonry/index.d.ts",
+      "default": "./lib/cjs/components/Masonry/index.js"
+    },
+    "./Modal": {
+      "types": "./lib/esm/components/Modal/index.d.ts",
+      "default": "./lib/cjs/components/Modal/index.js"
+    },
+    "./Navbar": {
+      "types": "./lib/esm/components/Navbar/index.d.ts",
+      "default": "./lib/cjs/components/Navbar/index.js"
+    },
+    "./NumberCounter": {
+      "types": "./lib/esm/components/NumberCounter/index.d.ts",
+      "default": "./lib/cjs/components/NumberCounter/index.js"
+    },
+    "./Pagination": {
+      "types": "./lib/esm/components/Pagination/index.d.ts",
+      "default": "./lib/cjs/components/Pagination/index.js"
+    },
+    "./ProgressBar": {
+      "types": "./lib/esm/components/ProgressBar/index.d.ts",
+      "default": "./lib/cjs/components/ProgressBar/index.js"
+    },
+    "./Radio": {
+      "types": "./lib/esm/components/Radio/index.d.ts",
+      "default": "./lib/cjs/components/Radio/index.js"
+    },
+    "./Rating": {
+      "types": "./lib/esm/components/Rating/index.d.ts",
+      "default": "./lib/cjs/components/Rating/index.js"
+    },
+    "./Sidebar": {
+      "types": "./lib/esm/components/Sidebar/index.d.ts",
+      "default": "./lib/cjs/components/Sidebar/index.js"
+    },
+    "./Skeleton": {
+      "types": "./lib/esm/components/Skeleton/index.d.ts",
+      "default": "./lib/cjs/components/Skeleton/index.js"
+    },
+    "./Slider": {
+      "types": "./lib/esm/components/Slider/index.d.ts",
+      "default": "./lib/cjs/components/Slider/index.js"
+    },
+    "./Spinner": {
+      "types": "./lib/esm/components/Spinner/index.d.ts",
+      "default": "./lib/cjs/components/Spinner/index.js"
+    },
+    "./Stepper": {
+      "types": "./lib/esm/components/Stepper/index.d.ts",
+      "default": "./lib/cjs/components/Stepper/index.js"
+    },
+    "./Switch": {
+      "types": "./lib/esm/components/Switch/index.d.ts",
+      "default": "./lib/cjs/components/Switch/index.js"
+    },
+    "./Table": {
+      "types": "./lib/esm/components/Table/index.d.ts",
+      "default": "./lib/cjs/components/Table/index.js"
+    },
+    "./Tabs": {
+      "types": "./lib/esm/components/Tabs/index.d.ts",
+      "default": "./lib/cjs/components/Tabs/index.js"
+    },
+    "./Textarea": {
+      "types": "./lib/esm/components/Textarea/index.d.ts",
+      "default": "./lib/cjs/components/Textarea/index.js"
+    },
+    "./Timeline": {
+      "types": "./lib/esm/components/Timeline/index.d.ts",
+      "default": "./lib/cjs/components/Timeline/index.js"
+    },
+    "./Toast": {
+      "types": "./lib/esm/components/Toast/index.d.ts",
+      "default": "./lib/cjs/components/Toast/index.js"
+    },
+    "./ToggleButton": {
+      "types": "./lib/esm/components/ToggleButton/index.d.ts",
+      "default": "./lib/cjs/components/ToggleButton/index.js"
+    },
+    "./Tooltip": {
+      "types": "./lib/esm/components/Tooltip/index.d.ts",
+      "default": "./lib/cjs/components/Tooltip/index.js"
+    },
+    "./Typography": {
+      "types": "./lib/esm/components/Typography/index.d.ts",
+      "default": "./lib/cjs/components/Typography/index.js"
+    },
+    "./Upload": {
+      "types": "./lib/esm/components/Upload/index.d.ts",
+      "default": "./lib/cjs/components/Upload/index.js"
+    },
+    "./AspectUITheme": {
+      "types": "./lib/esm/theme/AspectUITheme.d.ts",
+      "default": "./lib/cjs/theme/AspectUITheme.js"
+    },
+    "./css": {
+      "default": "./lib/cjs/theme/index.min.css"
+    }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:lib": "rimraf ./lib/ && yarn build:lib:dev",
+    "build:lib:dev": "yarn build:lib:esm && yarn build:lib:cjs && yarn build:css",
+    "build:css": "css-minify -f ./app/index.css -o ./lib/cjs/theme",
+    "watch": "npx tailwindcss -i ./app/src/input.css -o ./app/src/index.css",
+    "watch:lib": "npx tailwindcss -c ./app/src/tailwind.config.ts -i ./app/src/input.css -o ./app/src/index.css",
+    "build:lib:cjs": "tsc -p tsconfig.lib.json",
+    "build:lib:esm": "tsc -p tsconfig.lib.json --module esnext --declaration --outDir ./lib/esm",
+    "lint": "eslint app --ext ts,tsx,js,jsx,cjs --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint app --ext js,jsx,ts,tsx,cjs --fix",
+    "prettier": "npx prettier --write .",
+    "format": "prettier --write 'app/**/*.{js,jsx,ts,tsx,css,html}'",
+    "watchX": "npx tailwindcss -i ./app/globals.css -o ./app/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AspectUI/aspect-ui.git"
+  },
+  "keywords": [
+    "aspect-ui",
+    "ui",
+    "react",
+    "design-system",
+    "tailwindcss",
+    "tailwind-css"
+  ],
+  "author": "AspectUI <react.aspect.ui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AspectUI/aspect-ui/issues"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.0.3",
+    "@types/mdx": "^2.0.13",
+    "clsx": "^2.1.1",
+    "deepmerge": "^4.3.1",
+    "embla-carousel": "^8.3.0",
+    "embla-carousel-react": "^8.3.0",
+    "framer-motion": "^11.11.9",
+    "react-focus-lock": "^2.13.2",
+    "react-remove-scroll": "^2.5.9",
+    "react-syntax-highlighter": "^15.6.1",
+    "rehype-slug": "^6.0.0",
+    "remark-toc": "^9.0.0",
+    "tailwind-merge": "^2.5.4",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "@types/node": "^20",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "autoprefixer": "^10.4.20",
+    "css-minify": "^2.0.0",
+    "embla-carousel-autoplay": "^8.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "next": "^14.2.15",
+    "next-themes": "^0.4.3",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "aspect-ui",
+  "version": "0.0.1",
+  "description": "A React component library for building user interfaces",
+  "files": ["./lib/"],
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/esm/index.d.ts",
+        "default": "./lib/esm/index.js"
+      },
+      "require": {
+        "default": "./lib/cjs/index.js"
+      }
+    },
+    "./css": {
+      "default": "./lib/cjs/index.min.css"
+    }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:lib": "rimraf ./lib/ && yarn build:lib:dev",
+    "build:lib:dev": "yarn watch:lib && yarn build:lib:esm && yarn build:lib:cjs && yarn build:css",
+    "build:css": "css-minify -f ./app/src/index.css -o ./lib/cjs",
+    "watch": "npx tailwindcss -i ./app/src/input.css -o ./app/src/index.css",
+    "watch:lib": "npx tailwindcss -c ./app/src/tailwind.config.ts -i ./app/src/input.css -o ./app/src/index.css",
+    "build:lib:cjs": "tsc -p tsconfig.lib.json",
+    "build:lib:esm": "tsc -p tsconfig.lib.json --module esnext --declaration --outDir ./lib/esm",
+    "lint": "eslint app --ext ts,tsx,js,jsx,cjs --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint app --ext js,jsx,ts,tsx,cjs --fix",
+    "prettier": "npx prettier --write .",
+    "format": "prettier --write 'app/**/*.{js,jsx,ts,tsx,css,html}'",
+    "watchX": "npx tailwindcss -i ./app/globals.css -o ./app/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NafisMahmudAyon/aspect-ui.git"
+  },
+  "keywords": [
+    "aspect-ui",
+    "ui",
+    "react",
+    "design-system",
+    "tailwindcss",
+    "tailwind-css"
+  ],
+  "author": "Nafis Mahmud Ayon <nafismahmudayon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NafisMahmudAyon/aspect-ui/issues"
+  },
+  "dependencies": {
+    "embla-carousel": "^8.3.0",
+    "embla-carousel-react": "^8.3.0"
+  },
+  "devDependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "framer-motion": "^11.11.9",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "css-minify": "^2.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
